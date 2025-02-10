@@ -2,3 +2,8 @@ body {
     margin: 0;
     padding: 0;
 }
+
+#container, #headerInner, #footerInner { 
+    max-width: 1400px;
+    margin: 0 auto;
+}
