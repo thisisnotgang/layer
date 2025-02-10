@@ -17,9 +17,9 @@ async function loadHTML(elementId, path) {
 // 순차적 로드
 async function initLayout() {
     // 먼저 layout 로드
-    await loadHTML('layout', '/basic/layout.html');
-    await loadHTML('header', '/basic/header.html');
-    await loadHTML('footer', '/basic/footer.html');
+    await loadHTML('layout', './basic/layout.html');
+    await loadHTML('header', './basic/header.html');
+    await loadHTML('footer', './basic/footer.html');
 
     // header 높이만큼 container에 margin-top 설정
     const header = document.getElementById('header');
